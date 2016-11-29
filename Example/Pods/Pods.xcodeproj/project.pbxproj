@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		33B13AC9D097E78DD44B97654EFF894B /* Pods-SwiftLocationManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F9E65AB0CE166C871C7F7F3180E323 /* Pods-SwiftLocationManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49A171ABF8F76BA53709A149D68539A0 /* Pods-SwiftLocationManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DAC58EC93F1B7D2A0D7807E166994F /* Pods-SwiftLocationManager_Tests-dummy.m */; };
+		4E774F72FCC12A8091D0B36EA2D2CB2A /* SwiftLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF58332A44FE2232B195C1EF14396B /* SwiftLocationManager.swift */; };
 		7F08BF4046E1D34A0FDD3AD300A47F28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		9ED209CF5FF3D27FC3D52F069D8E60E4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C4C44764D89DF575221CA33A749EE /* ReplaceMe.swift */; };
-		AB5F0685B7F86757C39560407344BFDA /* SwiftLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 540E34A5DEED6C04F91AEBBED6922FCB /* SwiftLocationManager-dummy.m */; };
+		A4BF12AF74B339151364C32258D31FE0 /* SwiftLocationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF734AB22D5AE8EE7FFC2FDDEB428CB /* SwiftLocationConfig.swift */; };
 		DCE5B7F521F6438455A35D4381C87CB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E5E3E23553D910F2E0CCF86677CE0CB1 /* SwiftLocationManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7A3E4522232FE2376BF8DEBBD0032B /* SwiftLocationManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED22D1226E8F447EA52F62F682FFF769 /* SwiftLocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 540E34A5DEED6C04F91AEBBED6922FCB /* SwiftLocationManager-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,7 @@
 		242C0024B81CE3443911262F42046D54 /* Pods-SwiftLocationManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftLocationManager_Tests.modulemap"; sourceTree = "<group>"; };
 		2C986C2D583E82383B8144A71B0D8218 /* Pods_SwiftLocationManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocationManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3010EE44129763DA18AD631D2567F7BD /* SwiftLocationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A3C4C44764D89DF575221CA33A749EE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		34CF58332A44FE2232B195C1EF14396B /* SwiftLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftLocationManager.swift; sourceTree = "<group>"; };
 		4C7A3E4522232FE2376BF8DEBBD0032B /* SwiftLocationManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLocationManager-umbrella.h"; sourceTree = "<group>"; };
 		52BD4E778302132D0C72132B3312EFCD /* Pods-SwiftLocationManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLocationManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		540E34A5DEED6C04F91AEBBED6922FCB /* SwiftLocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLocationManager-dummy.m"; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		9C180C90C6188ED31B4C8249CE33D193 /* SwiftLocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLocationManager-prefix.pch"; sourceTree = "<group>"; };
 		A5F9E65AB0CE166C871C7F7F3180E323 /* Pods-SwiftLocationManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLocationManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B3FB58727BCD86B6B5EF3B683D978CC6 /* Pods-SwiftLocationManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLocationManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCF734AB22D5AE8EE7FFC2FDDEB428CB /* SwiftLocationConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftLocationConfig.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4DD8246F1EBF83DF334ABFCA4711B96 /* Pods-SwiftLocationManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLocationManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D860FD5B8D0BF1E9FDC9D46338965783 /* Pods-SwiftLocationManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLocationManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,28 +72,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05D1F1B24D675961B04C15228731F38B /* SwiftLocationManager */ = {
-			isa = PBXGroup;
-			children = (
-				2BC54D3F1316EA598CD3437252D4CABD /* Classes */,
-			);
-			path = SwiftLocationManager;
-			sourceTree = "<group>";
-		};
 		0F39500ECF61E361AAC179824AE14D50 /* SwiftLocationManager */ = {
 			isa = PBXGroup;
 			children = (
 				8A3C84C6E40F79E3F5260A4E1C5CF329 /* Support Files */,
-				05D1F1B24D675961B04C15228731F38B /* SwiftLocationManager */,
+				F6EE8B6A95C65D99829B7BD4A6675C87 /* SwiftLocationManager */,
 			);
 			name = SwiftLocationManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2BC54D3F1316EA598CD3437252D4CABD /* Classes */ = {
+		2AC00D67E359F292C2E24C945E213902 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4A3C4C44764D89DF575221CA33A749EE /* ReplaceMe.swift */,
+				BCF734AB22D5AE8EE7FFC2FDDEB428CB /* SwiftLocationConfig.swift */,
+				34CF58332A44FE2232B195C1EF14396B /* SwiftLocationManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -180,6 +175,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F6EE8B6A95C65D99829B7BD4A6675C87 /* SwiftLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				2AC00D67E359F292C2E24C945E213902 /* Classes */,
+			);
+			path = SwiftLocationManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -206,7 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD05AE5C1CC13757FC879512F8D25A00 /* Build configuration list for PBXNativeTarget "SwiftLocationManager" */;
 			buildPhases = (
-				6F2986E7240804F43C5553ECBB26A2A1 /* Sources */,
+				19E210A73DE9AE5204515135888886DF /* Sources */,
 				5B9297B421D3F5DEE629E881E08A0E4B /* Frameworks */,
 				DC9B6A5E70CB97AF12405AB0A927AF71 /* Headers */,
 			);
@@ -273,12 +276,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6F2986E7240804F43C5553ECBB26A2A1 /* Sources */ = {
+		19E210A73DE9AE5204515135888886DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED209CF5FF3D27FC3D52F069D8E60E4 /* ReplaceMe.swift in Sources */,
-				AB5F0685B7F86757C39560407344BFDA /* SwiftLocationManager-dummy.m in Sources */,
+				A4BF12AF74B339151364C32258D31FE0 /* SwiftLocationConfig.swift in Sources */,
+				ED22D1226E8F447EA52F62F682FFF769 /* SwiftLocationManager-dummy.m in Sources */,
+				4E774F72FCC12A8091D0B36EA2D2CB2A /* SwiftLocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +343,7 @@
 			};
 			name = Debug;
 		};
-		45438DC589C47F92B3A3A9EB94E05C3A /* Release */ = {
+		2AA587E5FDBD8CF311DBBF55ECD4D3FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A5B355F1E30888B6859CBD1415D4997 /* SwiftLocationManager.xcconfig */;
 			buildSettings = {
@@ -347,7 +351,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -360,16 +364,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftLocationManager/SwiftLocationManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SwiftLocationManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -455,6 +460,38 @@
 			};
 			name = Debug;
 		};
+		9F82D3CF69024DF195B5895E26CA5E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5B355F1E30888B6859CBD1415D4997 /* SwiftLocationManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLocationManager/SwiftLocationManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLocationManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftLocationManager/SwiftLocationManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftLocationManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C7B387E40A06A0EA77DAF1A332948968 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E6D80562CACE0C66E80A06C2F896038 /* Pods-SwiftLocationManager_Tests.release.xcconfig */;
@@ -491,39 +528,6 @@
 			};
 			name = Release;
 		};
-		C8D74438BE042F3D8841FF4EB9290BF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A5B355F1E30888B6859CBD1415D4997 /* SwiftLocationManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftLocationManager/SwiftLocationManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftLocationManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftLocationManager/SwiftLocationManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftLocationManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -548,8 +552,8 @@
 		CD05AE5C1CC13757FC879512F8D25A00 /* Build configuration list for PBXNativeTarget "SwiftLocationManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8D74438BE042F3D8841FF4EB9290BF2 /* Debug */,
-				45438DC589C47F92B3A3A9EB94E05C3A /* Release */,
+				2AA587E5FDBD8CF311DBBF55ECD4D3FA /* Debug */,
+				9F82D3CF69024DF195B5895E26CA5E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

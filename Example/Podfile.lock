@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftLocationManager: 87cd76f5bd2b81c46f464d35d5e63538293895f7
+  SwiftLocationManager: 3f7f5e84c91237f6ed1b87aefcc1540280281eef
 
 PODFILE CHECKSUM: eb5338dae3b23f9cdf9f3c569f4388998732072f
 

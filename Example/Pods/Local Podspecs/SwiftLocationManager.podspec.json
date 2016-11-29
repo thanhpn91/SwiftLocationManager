@@ -1,9 +1,8 @@
 {
   "name": "SwiftLocationManager",
   "version": "0.1.0",
-  "summary": "A short description of SwiftLocationManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SwiftLocationManager",
+  "summary": "CLLocationManager wrapper, provides functions such as getting location, reverse geocoding using apple service.",
+  "homepage": "https://github.com/thanhpn91/SwiftLocationManager.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +11,7 @@
     "Thanh Pham": "thanh.pham@siclo-mobile.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SwiftLocationManager.git",
+    "git": "https://github.com/thanhpn91/SwiftLocationManager.git",
     "tag": "0.1.0"
   },
   "platforms": {
