@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftLocationManager_Tests' do
+  pod 'SwiftLocationManager', :path => '../'
+  
+  
+end

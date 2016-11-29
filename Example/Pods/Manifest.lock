@@ -1,0 +1,16 @@
+PODS:
+  - SwiftLocationManager (0.1.0)
+
+DEPENDENCIES:
+  - SwiftLocationManager (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftLocationManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftLocationManager: 87cd76f5bd2b81c46f464d35d5e63538293895f7
+
+PODFILE CHECKSUM: eb5338dae3b23f9cdf9f3c569f4388998732072f
+
+COCOAPODS: 1.1.0
