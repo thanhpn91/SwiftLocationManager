@@ -36,7 +36,7 @@ extension LocationManagerConfig: LocationConfig {
     var distanceFilter: CLLocationDistance {
         get {
             switch self {
-            case .default:
+            case .`default`:
                 return 500.0
             default:
                 return self.distanceFilter
@@ -50,7 +50,7 @@ extension LocationManagerConfig: LocationConfig {
     var horizontalAccuracy: CLLocationDistance {
         get {
             switch self {
-            case .default:
+            case .`default`:
                 return kCLLocationAccuracyKilometer
             default:
                 return self.horizontalAccuracy
@@ -64,7 +64,7 @@ extension LocationManagerConfig: LocationConfig {
     var desiredAccuracy: CLLocationAccuracy {
         get {
             switch self {
-            case .default:
+            case .`default`:
                 return 2000.0
             default:
                 return self.desiredAccuracy

@@ -23,12 +23,12 @@ import UIKit
 
 public enum LocationResponse {
     case locationUpdated(CLLocation)
-    case locationFailed(Error)
+    case locationFailed(NSError)
 }
 
 public enum GeocodeResponse {
     case success(CLPlacemark)
-    case failure(Error)
+    case failure(NSError)
     case placeNotFound
 }
 
@@ -62,18 +62,18 @@ final class LocationManager: NSObject, CLLocationManagerDelegate {
         }
     }
     
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+    func locationManager(manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         switch status {
-        case .notDetermined:
-            manager.requestWhenInUseAuthorization()
-        case .authorizedAlways, .authorizedWhenInUse:
-            manager.startUpdatingLocation()
-        case .denied, .restricted:
-            break
+            case .NotDetermined:
+                manager.requestWhenInUseAuthorization()
+            case .AuthorizedAlways, .AuthorizedWhenInUse:
+                manager.startUpdatingLocation()
+            case .Denied, .Restricted:
+                break
         }
     }
     
-    func reverseGeocodeLocationFrom(_ location: CLLocation, completionHandler : @escaping ReverseGeocodeCompletionHandler) {
+    func reverseGeocodeLocationFrom(location: CLLocation, completionHandler : ReverseGeocodeCompletionHandler) {
         geoCoder.reverseGeocodeLocation(location) { (placemark, error) in
             if let placemark = placemark, let firstPlacemark = placemark.first {
                 completionHandler(.success(firstPlacemark))
@@ -83,7 +83,7 @@ final class LocationManager: NSObject, CLLocationManagerDelegate {
         }
     }
     
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else {
             return
         }
